@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.bg{background-color: #FFAB00;}
+.navbar{height: 50px;}
+.image{height: 250px;}
+.mar{margin-left: 100px; margin-right: 100px;}
+.bo{border-top: 1px solid black; border-bottom: 1px solid black;}
+.mar1{margin-left: 180px; margin-right: 180px;}
+.bo1{border-bottom: 1px solid black;}
+.tpd{padding-top: 100px;}
+.mar2{margin-left: 230px; margin-right: 230px;}
+.divgap{gap: 50px 10px;}
+.bor{border: 1px solid black;}
+.title{font-weight: bold; display: inline-block; width: 200px;}
+.peo{display: inline-block;}

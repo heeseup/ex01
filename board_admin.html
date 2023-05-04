@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	div{margin: auto; width: 1000px;}
+	table{border-collapse: collapse; text-align: center;}
+	th{border-top: 1px lightgray solid; border-bottom: 2px lightgray solid; background-color: lightgray; height: 35px;}
+	td{border-top: 1px lightgray solid; border-bottom: 2px lightgray solid; height: 35px;}
+	.no{width: 100px;}
+	.date{width: 100px;}
+	.cate{width: 100px;}
+	.title{width: 350px;}
+	.writer{width: 100px;}
+	.count{width: 100px;}
+	.status{width: 100px;}
+	.kick{background-color: black; color: white; height: 35px; border-radius: 5px; margin-left: 90%}
+</style>
+
+</head>
+<body>
+<div>
+<ul>
+	<li><h3>게시글 관리</h3></li>
+</ul>
+
+<table>
+	<tr>
+		<th class="no">글번호</th>
+		<th class="date">등록일</th>
+		<th class="cate">카테고리</th>
+		<th class="title">제목</th>
+		<th class="writer">작성자</th>
+		<th class="count">조회수</th>
+		<th class="status">삭제여부</th>
+	</tr>
+	<tr>
+		<td>1111</td>
+		<td>2023.00.00</td>
+		<td>운동</td>
+		<td>제목제목젬고제목제목젬고</td>
+		<td>작성자1</td>
+		<td>10</td>
+		<td><button class="delete">삭제</button></td>
+	</tr>
+	<tr>
+		<td>1110</td>
+		<td>2023.00.00</td>
+		<td>예술</td>
+		<td>제목제목젬고제목제목젬고</td>
+		<td>작성자2</td>
+		<td>25</td>
+		<td><button class="delete">삭제</button></td>
+	</tr>
+	<tr>
+		<td>1109</td>
+		<td>2023.00.00</td>
+		<td>음식</td>
+		<td>제목제목젬고제목제목젬고</td>
+		<td>작성자3</td>
+		<td>30</td>
+		<td><button class="delete">삭제</button></td>
+	</tr>
+	<tr>
+		<td>1108</td>
+		<td>2023.00.00</td>
+		<td>여행</td>
+		<td>제목제목젬고제목제목젬고</td>
+		<td>작성자4</td>
+		<td>12</td>
+		<td><button class="delete">삭제</button></td>
+	</tr>
+	<tr>
+		<td>1107</td>
+		<td>2023.00.00</td>
+		<td>창작</td>
+		<td>제목제목젬고제목제목젬고</td>
+		<td>작성자5</td>
+		<td>15</td>
+		<td><button class="delete">삭제</button></td>
+	</tr>
+	<tr>
+		<td>1106</td>
+		<td>2023.00.00</td>
+		<td>자기계발</td>
+		<td>제목제목젬고제목제목젬고</td>
+		<td>작성자6</td>
+		<td>60</td>
+		<td><button class="delete">삭제</button></td>
+	</tr>
+	<tr>
+		<td>1105</td>
+		<td>2023.00.00</td>
+		<td>운동</td>
+		<td>제목제목젬고제목제목젬고</td>
+		<td>작성자7</td>
+		<td>13</td>
+		<td><button class="delete">삭제</button></td>
+	</tr>
+	<tr>
+		<td>1104</td>
+		<td>2023.00.00</td>
+		<td>운동</td>
+		<td>제목제목젬고제목제목젬고</td>
+		<td>작성자8</td>
+		<td>110</td>
+		<td><button class="delete">삭제</button></td>
+	</tr>
+	<tr>
+		<td>1103</td>
+		<td>2023.00.00</td>
+		<td>음식</td>
+		<td>제목제목젬고제목제목젬고</td>
+		<td>작성자9</td>
+		<td>210</td>
+		<td><button class="delete">삭제</button></td>
+	</tr>
+	<tr>
+		<td>1102</td>
+		<td>2023.00.00</td>
+		<td>창작</td>
+		<td>제목제목젬고제목제목젬고</td>
+		<td>작성자10</td>
+		<td>10</td>
+		<td><button class="delete">삭제</button></td>
+	</tr>
+</table>
+</div>
+
+<script>
+	const btn = document.getElementsByClassName('delete');
+	
+	for(const dl_btn of btn){
+		dl_btn.addEventListener('click', function(){
+			alert("삭제하였습니다.");
+		})
+	}
+</script>
+</body>
+</html>

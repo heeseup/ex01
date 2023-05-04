@@ -1,0 +1,94 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+</style>
+</head>
+<body>
+<table>
+	<tr>
+		<th>번호</th>
+		<th>제목</th>
+		<th>작성자</th>
+		<th>작성일자</th>
+		<th>조회수</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>제목1</td>
+		<td>작성자1</td>
+		<td>2023.00.00</td>
+		<td>1</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>제목2</td>
+		<td>작성자2</td>
+		<td>2023.00.00</td>
+		<td>2</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>제목3</td>
+		<td>작성자3</td>
+		<td>2023.00.00</td>
+		<td>3</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>제목4</td>
+		<td>작성자4</td>
+		<td>2023.00.00</td>
+		<td>4</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>7</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>8</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>9</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+
+</body>
+</html>
